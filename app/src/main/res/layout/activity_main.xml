@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#2C2F48"
+    android:padding="16dp">
+
+    <com.example.alarmclock.CustomClockView
+        android:id="@+id/clockView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:id="@+id/tvCurrentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19:15"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvCurrentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fri, 5 Jul"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSetAlarm"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background_blue"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnViewAlarms"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="View Alarms"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/button_background_orange"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

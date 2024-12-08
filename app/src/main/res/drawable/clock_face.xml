@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Circle -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#3D405B" />
+        </shape>
+    </item>
+
+    <!-- Glow Effect -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:angle="0"
+                android:endColor="#2C2F48"
+                android:startColor="#FFFFFF"
+                android:type="radial"
+                android:gradientRadius="250dp" />
+        </shape>
+    </item>
+
+    <!-- Hour Markers -->
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="200dp" android:width="200dp" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#2C2F48"
+    tools:context=".SetAlarmActivity">
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:theme="@style/TimePickerTheme" />
+
+    <Button
+        android:id="@+id/btnChooseTone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Choose Alarm Tone"
+        android:background="@drawable/button_background_blue"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/btnSaveAlarm"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Save Alarm"
+        android:background="@drawable/button_background_green"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:elevation="4dp" />
+
+</LinearLayout>

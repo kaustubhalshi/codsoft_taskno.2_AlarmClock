@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#2C2F48"
+    android:padding="16dp">
+
+    <!-- Alarm Message -->
+    <TextView
+        android:id="@+id/tvAlarmMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm is ringing!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Stop Alarm Button -->
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Stop Alarm"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="4dp"
+        android:background="@drawable/button_gradient"/>
+
+    <Button
+        android:id="@+id/btnSnoozeAlarm"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Snooze (5 mins)"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background_orange"
+        android:layout_marginTop="10dp"
+        android:elevation="4dp"/>
+
+</LinearLayout>
